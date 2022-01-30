@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Indie+Flower&display=swap" rel="stylesheet">
+  <title>BLOG RUT</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+  <!--REDES SOCIALES IZDA. Con enlace a los iconos de FONT-AWESOME -->
+  <aside id="side-nav">
+    <div class="side-nav__content">
+      <div class="side-nav__content--logo">
+        <img src="img/perfil.jpg" alt="logo">
+      </div>
+      <ul class="side-nav__content--social">
+        <a href="https://es-es.facebook.com/"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/rut-maria-ayuso-comino-a8b427206/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/rutmariaayuso/"><i class="fab fa-instagram"></i></a>
+        <a href="https://dribbble.com/"><i class="fab fa-dribbble"></i></a>
+        <a href="https://www.pinterest.es/"><i class="fab fa-pinterest"></i></a>
+      </ul>
+    </div>
+  </aside>
+
+
+  <!--MENU PRINCIPAL SUPERIOR HAMBURGUESA (solo aparece cuando se encoje el width de la web)-->
+  <main>
+    <header id="header">
+      <nav id="header__main-nav">
+        <div class="header__main-nav--hamburger">
+          <!-- LAS TRES BARRAS -->
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+        <!--MENU PRINCIPAL SUPERIOR-->
+        <ul class="header__main-nav--links">
+          <!-- podia añadir los enlaces a continuacion. Pero los he dejado vacíos -->
+          <li><a href="http://localhost/ejercicios/paqui/ud3/PROYECTO/proyecto/proyecto/dist/#showcase">Home</a></li>
+          <li><a href="http://localhost/ejercicios/paqui/ud3/PROYECTO/proyecto/proyecto/dist/#about-me">About</a></li>
+          <li><a href="http://localhost/ejercicios/paqui/ud3/PROYECTO/proyecto/proyecto/dist/#work">Projects</a></li>
+          <li><a href="http://localhost/ejercicios/paqui/ud3/PROYECTO/proyecto/proyecto/dist/#services">Services</a></li>
+          <li><a href="http://localhost/ejercicios/paqui/ud3/PROYECTO/proyecto/proyecto/dist/#skills">Hire Me</a></li>
+          <li><a href="http://localhost/ejercicios/paqui/ud3/PROYECTO/proyecto/proyecto/dist/#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <!--RECTÁNGULO MOVIMIENTO CON CONTENIDO(nombre, texto , my work con transicion)-->
+    <section id="showcase">
+      <div class="showcase__content">
+        <h1 class="showcase__content--title">Rut María Ayuso</h1>
+        <p class="showcase__content--para">Desarrolladora de aplicaciones web</p>
+        <a href="#" class="showcase__content--link">Mi trabajo</a>
+
+      </div>
+    </section>
+    
+
+    <!--GALERIA FOTOS CON FORMATO OCTÓGONO (6 FOTOS)-->
+    <section id="work">
+      <div class="work__card">
+        <img src="img/nere.gif" alt="gif nere">
+      </div>
+      <div class="work__card">
+        <img src="img/denise.jpg" alt="balcón amigas">
+      </div>
+      <div class="work__card">
+        <img src="img/grana.jpg" alt="granada">
+      </div>
+      <div class="work__card">
+        <img src="img/playa.jpg" alt="playa">
+      </div>
+      <div class="work__card">
+        <img src="img/suizo.jpg" alt="centro granada">
+      </div>
+      <div class="work__card">
+        <img src="img/perfil.jpg" alt="foto perfil">
+      </div>
+    </section>
+    
+
+    <!-- SECCION FOTO GRANDE IZDA., SOBRE MI parrafo -->
+    <section id="about-me">
+      <div class="about-me__img">
+        <img src="img/bb.jpeg " alt="mini rut">
+      </div>
+      <div class="about-me__content">
+        <h2 class="about-me__content--title">Sobre mí</h2>
+        <p class="about-me__content--para">I am 20 years old and I love the computer world. That's why I've been learning about it for the last 4 years.</p>
+       <a href="#" class="about-me__content--link">Leer más</a> 
+      </div>
+    </section>
+    
+
+
+
+
+
+
+
+    <!--SERVICIOS-->
+    <section id="services">
+      
+      <div class="service services__services-1">
+        <i class="fa fa-paint-brush"></i>
+        <h3 class="services--title services__service-1--title">UI Design</h3>
+        <p class="services--para services_service-1--para">I'll design your UI to help your users navigate your website seamlessly, and with ease.</p>
+      </div>
+      
+      <div class="service services__services-2">
+        <i class="fa fa-globe" aria-hidden="true"></i>
+        <h3 class="services--title services__service-2--title">Web Development</h3>
+        <p class="services--para services_service-2--para">I'll design your website to create the functionality that your business needs.</p>
+      </div>
+      
+      <div class="service services__services-3">
+        <i class="fa fa-mobile" aria-hidden="true"></i>
+        <h3 class="services--title services__service-3--title">App Development</h3>
+        <p class="services--para services_service-3--para">I will make sure that your application meets all your needs, looking closely at how the company and customers work.</p>
+      </div>
+      
+      <div class="service services__services-4">
+        
+        <i class="fa fa-paint-brush" aria-hidden="true"></i>
+        <h3 class="services--title services__service-4--title">Shader Writer</h3>
+        <p class="services--para services_service-4--para">Do you want your work to look attractive? If you trust me I can help you make it happen. </p>
+      </div>
+      
+      <div class="service services__services-5">
+        <i class="fa fa-gamepad" aria-hidden="true"></i>
+        <h3 class="services--title services__service-5--title">Game Development</h3>
+        <p class="services--para services_service-5--para">Do you want to create your game? Don't worry, I can help you to do it in a simple way.</p>
+      </div>
+      
+      <div class="service services__services-6">
+        <i class="fas fa-project-diagram"></i>
+        <h3 class="services--title services__service-6--title">Project Manager</h3>
+        <p class="services--para services_service-6--para">If you need advice on this subject, I am at your disposal. I hope you get results and as a group you reach your goals.</p>
+      </div>
+    </section>
+    
+
+    <!--BARRAS SKILLS EN MOVIMIENTO-->
+    <section id="skills">
+      <div class="skills__design">
+        <h3 class="skills__design--title">Design Skills</h3>
+
+        <h4>Web design</h4>
+        <div class="skills__design--progress">
+          <span class="skills__design--progress__1"></span>
+        </div>
+
+        <h4>Print design</h4>
+        <div class="skills__design--progress">
+          <span class="skills__design--progress__2"></span>
+        </div>
+
+        <h4>Logo design</h4>
+        <div class="skills__design--progress">
+          <span class="skills__design--progress__3"></span>
+        </div>
+
+        <h4>Graphic design</h4>
+        <div class="skills__design--progress">
+          <span class="skills__design--progress__4"></span>
+        </div>
+      </div>
+      
+      <!--BARRAS SKILLS EN MOVIMIENTO-->
+      <div class="skills__coding">
+        <h3 class="skills__coding--title">Coding Skills</h3>
+
+        <h4>HTML/CSS</h4>
+        <div class="skills__coding--progress">
+          <span class="skills__coding--progress__1"></span>
+        </div>
+
+        <h4>JavaScript</h4>
+        <div class="skills__coding--progress">
+          <span class="skills__coding--progress__2"></span>
+        </div>
+
+        <h4>.NET</h4>
+        <div class="skills__coding--progress">
+          <span class="skills__coding--progress__3"></span>
+        </div>
+
+        <h4>SQL</h4>
+        <div class="skills__coding--progress">
+          <span class="skills__coding--progress__4"></span>
+        </div>
+      </div>
+    </section>
+
+
+    
+    <!--SECCION TESTIMONIALS 6FOTOS+ ANIMACION EMPEQUEÑECE-->
+    <section id="testimonials">
+      <!--FOTO 1 + TEXTO-->
+      <div class="testimonials__card">
+        <div class="testimonials__card--img">
+          <img src="img/work1.jpg" alt="tony">
+        </div>
+        <div class="testimonials__card--content">
+          <h3 class="testimonials__card--title">
+            Primera imagen
+          </h3>
+          <p class="testimonials__card--para">
+              Lorem Ipsum dolor sit amet
+          </p>
+        </div>
+      </div>
+      
+      <!--FOTO 2 + TEXTO-->
+      <div class="testimonials__card">
+        <div class="testimonials__card--img">
+          <img src="img/work2.jpg" alt="natasha">
+        </div>
+        <div class="testimonials__card--content">
+          <h3 class="testimonials__card--title">
+            Catchy Designs
+          </h3>
+          <p class="testimonials__card--para">
+              Lorem Ipsum dolor sit amet
+          </p>
+        </div>
+      </div>
+      
+      <!--FOTO 3 + TEXTO-->
+      <div class="testimonials__card">
+        <div class="testimonials__card--img">
+          <img src="img/work3.jpg" alt="Robert">
+        </div>
+        <div class="testimonials__card--content">
+          <h3 class="testimonials__card--title">
+            Tercera imagen
+          </h3>
+          <p class="testimonials__card--para">
+              Lorem Ipsum dolor sit amet
+          </p>
+        </div>
+      </div>
+      
+      <!--FOTO 4 + TEXTO-->
+      <div class="testimonials__card">
+        <div class="testimonials__card--img">
+          <img src="img/work4.jpg" alt="tish">
+        </div>
+        <div class="testimonials__card--content">
+          <h3 class="testimonials__card--title">
+            Cuarta imagen
+          </h3>
+          <p class="testimonials__card--para">
+              Lorem Ipsum dolor sit amet
+          </p>
+        </div>
+      </div>
+
+      <!--FOTO 5 + TEXTO-->
+      <div class="testimonials__card">
+        <div class="testimonials__card--img">
+          <img src="img/work5.jpg" alt="tish">
+        </div>
+        <div class="testimonials__card--content">
+          <h3 class="testimonials__card--title">
+            Quinta imagen
+          </h3>
+          <p class="testimonials__card--para">
+              Lorem Ipsum dolor sit amet
+          </p>
+        </div>
+      </div>
+
+      <!--FOTO 6 + TEXTO-->
+      <div class="testimonials__card">
+        <div class="testimonials__card--img">
+          <img src="img/work6.jpg" alt="tish">
+        </div>
+        <div class="testimonials__card--content">
+          <h3 class="testimonials__card--title">
+            Sexta imagen
+          </h3>
+          <p class="testimonials__card--para">
+              Lorem Ipsum dolor sit amet
+          </p>
+        </div>
+      </div>
+    </section>
+    
+
+
+
+    <!-- FORMULARIO DE CONTACTO (DERECHA ABAJO) -->
+    <section id="contact">
+      <form class="contact__form">
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Subject">
+        <textarea name="message" placeholder="Message"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    
+  </main>
+
+  <!-- ENLACE A JS CON LA ANIMACION DE LAS BARRAS DEL MENÚ AMBURGUESA -->
+  <script  src="./index.js"></script>
+</body>
+
+</html>
+
+  
+
